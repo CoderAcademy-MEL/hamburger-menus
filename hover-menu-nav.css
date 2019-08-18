@@ -1,0 +1,58 @@
+/* remove all padding and margin */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* html elements */
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  position: fixed;
+  right: 20px;
+  top: 50px;
+  font-family: sans-serif;
+  background: black;
+}
+
+li {
+  padding: 10px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* classes */
+
+.container {
+  padding: 20px;
+  background: red;
+}
+
+.menu {
+  display: none;
+}
+
+.hamburger {
+  font-size: 30px;
+  display: block;
+  text-align: right;
+  position: relative;
+}
+
+.hover {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 30px;
+  width: 30px;
+}
+
+.hover:hover .menu {
+  display: block;
+}

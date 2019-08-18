@@ -1,0 +1,62 @@
+/* remove all margin and padding */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* html elements */
+
+ul {
+  list-style-type: none;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  background: black;
+  position: fixed;
+  top: 60px;
+}
+
+li {
+  padding: 5px 0px;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+/* classes */
+
+.container {
+  background: dodgerblue;
+  padding: 20px;
+}
+
+.ham {
+  font-size: 30px;
+}
+
+.menu {
+  display: none;
+}
+
+/* ids */
+
+#button {
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+#button label span {
+  display: block;
+}
+
+#button input:checked + span + .menu {
+  display: block;
+}
+
+#button label input {
+  display: none;
+}
